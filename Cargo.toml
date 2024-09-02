@@ -1,0 +1,13 @@
+[package]
+name = "pallas_base_emulated"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bellpepper-core = "0.4.0"
+bellpepper-emulated = { git = "https://github.com/lurk-lab/bellpepper-gadgets.git" }
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+pasta_curves = "0.5.1"
+rand = "0.8.5"
+byteorder = "1.4.3"
